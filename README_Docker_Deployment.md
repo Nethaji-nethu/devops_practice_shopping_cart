@@ -11,4 +11,4 @@ To start deploying and using directly using docker-compose,
       `docker-compose up -d`
    
 5. Once done, confirm the same via `docker ps` command that 2 containers are running (app and db) on ports 8080, 3306 respectively.
-6. then on the docker host, open http://localhost:8080/shopping-cart/ in your browser or http://dockerhost-dns:8080/shopping-cart/ or http://dockerhost-ip:8080/shopping-cart/
+6. then on the docker host, give `curl -vL http://localhost:8080/shopping-cart/` command or in your browser open `http://dockerhost-dns:8080/shopping-cart/` or `http://dockerhost-ip:8080/shopping-cart/`
